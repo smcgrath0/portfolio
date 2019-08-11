@@ -38,3 +38,7 @@
 a {
   color: #6ea2f0;
 }
+
+.rounded-corners{
+  border-radius: 25px;
+}
