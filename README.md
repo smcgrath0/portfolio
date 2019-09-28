@@ -10,9 +10,6 @@
 	- in the section titled "ABOUT GRAYSCALE" change the title to "ABOUT <your first name>"
 	- Add your developer story to the text below "ABOUT GRAYSCALE"
 
-### Featureset 2 (Do this when asked to, not before - week 5)
-- Hackathon 1 project add
-
 ### Featureset 3 (Do this when asked to, not before - week 7)
 - Google maps api fix
 	- go to <a href="https://cloud.google.com/maps-platform/?apis=maps" target="_blank">google maps api</a> and click "get started"
@@ -36,7 +33,7 @@
 		- find the google maps api and add your key in the part labeled YOUR_KEY_HERE
 	- secure
 		- click on api console
-		- under api restrictions, 
+		- under api restrictions,
 			- click HTTP referrers (web sites)
 			- in the input below, add your domain name with an https protocol (https://yourdomain.ext) (this will allow it to work on your server)
 			- click save
@@ -57,15 +54,8 @@
 			- change the lat/long given there to your desired lat/long
 
 
-### Featureset 4 (Do this when asked to, not before - week 7)
-- Hackathon 2 project add
-
 ### Featureset 5 (Do this when asked to, not before - week 7)
 - Contact form data and validation
-
-### Featureset 6 (Do this when asked to, not before - Week 8)
-- Deploy to server as Dev
-- Deploy to server as Production
 
 ### Featureset 7 (Do this when asked to, not before - week 9)
 - Contact form email sending (sendgrid)

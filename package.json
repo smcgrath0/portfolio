@@ -1,7 +1,7 @@
 {
   "name": "grayscale",
   "title": "Grayscale",
-  "version": "3.3.7+1",
+  "version": "3.3.7",
   "homepage": "http://startbootstrap.com/template-overviews/grayscale",
   "author": "Start Bootstrap",
   "license": {
@@ -12,16 +12,29 @@
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
     "font-awesome": "^4.6.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.10",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
     "gulp-header": "^1.8.7",
     "gulp-less": "^3.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.4",
-    "jquery": "^1.11.3"
+    "jquery": "^3.4.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/practicePortfolio.git"
+    "url": "git+https://github.com/Learning-Fuze/practicePortfolio.git"
+  },
+  "description": "- This project will be updated over time with various sections.\r - You should work on enhancing this when you need to take a break on your current project.",
+  "bugs": {
+    "url": "https://github.com/Learning-Fuze/practicePortfolio/issues"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon js/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
   }
 }
