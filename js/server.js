@@ -1,11 +1,15 @@
 const express = require('express');
-const companies = require('./companies');
+const path = require('path');
+const projects = require('./projects');
 
 const server = express();
-let PORT = process.env.PORT;
-
-server.use('/api/companies', companies);
-server.listen(PORT, () => {
+server.use(express.static(path.join(__dirname,'./grayscale')));
+server.use(express.static(path.join(__dirname,'./css')));
+server.use('/', (req, res, next)=>{
+   res.sendFile(path.join(__dirname, '../index.html'));
+})
+server.use('/projects', projects);
+server.listen(3009, () => {
   // eslint-disable-next-line no-console
   console.log('its listening');
 });

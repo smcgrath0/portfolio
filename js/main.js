@@ -2,7 +2,15 @@ $(document).ready(startApp);
 
 function startApp (){
 
-  $(".rounded-corners").hover(startGIF, endGIF)
+  $(".rounded-corners").hover(startGIF, endGIF);
+  $(".card > img").on('click', () => {
+    $.ajax({
+      url:'localhost:3009/projects',
+      success: function(result) {
+        console.log("SUCCESS");
+      }
+    })
+  })
 }
 
 function startGIF() {
