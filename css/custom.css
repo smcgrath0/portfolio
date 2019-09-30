@@ -68,7 +68,7 @@ a {
 
 .jungle-img{
   margin-top: 5%;
-  background-image: url("../img/nile.png");
+  background-image: url("../img/jungle.png");
   background-size: cover;
   margin:auto;
   height: 180px;
@@ -78,7 +78,7 @@ a {
 }
 
 .jungle-img:hover{
-  background-image: url("../img/portfoliovidNile.gif");
+  background-image: url("../img/portfoliovidJungle.gif");
   background-size: cover;
   background-position: center;
   height: 180px;
