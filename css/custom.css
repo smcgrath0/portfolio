@@ -42,3 +42,73 @@ a {
 .rounded-corners{
   border-radius: 25px;
 }
+
+/* .nile{
+  margin-top: 5%;
+} */
+
+.nile-img{
+  margin-top: 5%;
+  background-image: url("../img/nile.png");
+  background-size: cover;
+  margin:auto;
+  height: 180px;
+  width: 250px;
+  transform: scale(1);
+}
+
+.nile-img:hover{
+  background-image: url("../img/portfoliovidNile.gif");
+  background-size: cover;
+  background-position: center;
+  /* transition-duration: 1s; */
+  transform: scale(1.05);
+}
+
+
+.jungle-img{
+  margin-top: 5%;
+  background-image: url("../img/nile.png");
+  background-size: cover;
+  margin:auto;
+  height: 180px;
+  width: 250px;
+  /* transition-duration: 1s; */
+  transform: scale(1);
+}
+
+.jungle-img:hover{
+  background-image: url("../img/portfoliovidNile.gif");
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  margin:auto;
+  width: 250px;
+  /* transition-duration: 1s; */
+  transform: scale(1.05);
+}
+
+.adme-img{
+  background-image: url("../img/nile.png");
+  background-size: cover;
+  margin:auto;
+  height: 180px;
+  width: 250px;
+  /* transition-duration: 1s; */
+  transform: scale(1);
+}
+
+.adme-img:hover{
+  background-image: url("../img/portfoliovidNile.gif");
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  margin:auto;
+  width: 250px;
+  /* transition-duration: 1s; */
+  transform: scale(1.05);
+}
+
+#map {
+        height: 100%;
+      }
