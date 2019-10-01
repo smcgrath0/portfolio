@@ -111,4 +111,9 @@ a {
 
 #map {
         height: 100%;
-      }
+}
+
+.emailMessage{
+  width:50%;
+  height:100px
+}
