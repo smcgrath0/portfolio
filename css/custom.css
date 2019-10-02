@@ -6,6 +6,13 @@
   background-image: url(../img/supernova-bg.jpg)
 }
 
+.skills-section{
+  background-image: url("../img/supernova-bg2.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .btn-default {
   border: 1px solid #6ea2f0;
   color: #6ea2f0;
@@ -44,6 +51,7 @@ a {
   margin-top: 5%;
   background-image: url("../img/nile.png");
   background-size: cover;
+  background-position: center;
   margin:auto;
   height: 180px;
   width: 250px;
@@ -109,4 +117,134 @@ a {
 .emailMessage{
   width:50%;
   height:100px
+}
+
+/*skills*/
+
+.skill{
+  width: 100px;
+  height:100px;
+}
+
+.skillContainer{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+.skill-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  transform:scale(1);
+}
+
+.skill-img:hover{
+  background-color:rgba(255,255,0,1);
+  /* opacity: 0.5; */
+  transition-duration: 0.5s;
+  transform:scale(1.2);
+}
+
+.javascript-img{
+  background-image: url("../img/javascript.png");
+  background-size: cover;
+}
+
+.php-img{
+  background-image: url("../img/php.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.mysql-img{
+  background-image: url("../img/mysql.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.react-img{
+  background-image: url("../img/react.png");
+  background-size: cover;
+}
+
+.node-img{
+  background-image: url("../img/node.png");
+  background-size: cover;
+}
+
+.jquery-img{
+  background-image: url("../img/jquery.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.express-img{
+  background-image: url("../img/express.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.c-img{
+  background-image: url("../img/c.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.github-img{
+  background-image: url("../img/github.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.meistertask-img{
+  background-image: url("../img/meistertask.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.figma-img{
+  background-image: url("../img/figma.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.aws-img{
+  background-image: url("../img/aws.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.html-img{
+  background-image: url("../img/html.jpg");
+  /* font-size: 3rem; */
+  /* vertical-align: auto; */
+  background-size: cover;
+  background-position: bottom;
+}
+
+.css-img{
+  background-image: url("../img/css.png");
+  background-size: cover;
+  background-position: bottom;
+  /* transform: scale(1.5) */
+}
+
+.bootstrap-img{
+  background-image: url("../img/bootstrap.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.babel-img{
+  background-image: url("../img/babel.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.webpack-img{
+  background-image: url("../img/webpack.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
