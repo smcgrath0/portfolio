@@ -166,7 +166,7 @@ a {
 }
 
 .react-img{
-  background-image: url("../img/react.png");
+  background-image: url("../img/react2.png");
   background-size: cover;
 }
 
@@ -188,9 +188,9 @@ a {
 }
 
 .c-img{
-  background-image: url("../img/c.png");
+  background-image: url("../img/c.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 
 .github-img{
@@ -218,7 +218,7 @@ a {
 }
 
 .html-img{
-  background-image: url("../img/html.jpg");
+  background-image: url("../img/html.png");
   /* font-size: 3rem; */
   /* vertical-align: auto; */
   background-size: cover;
@@ -236,6 +236,7 @@ a {
   background-image: url("../img/bootstrap.jpg");
   background-size: cover;
   background-position: bottom;
+  border-radius: 18%;
 }
 
 .babel-img{
