@@ -55,6 +55,7 @@ a {
   margin:auto;
   height: 180px;
   width: 250px;
+  transition-duration: 1s;
   transform: scale(1);
 }
 
@@ -62,7 +63,7 @@ a {
   background-image: url("../img/portfoliovidNile.gif");
   background-size: cover;
   background-position: center;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1.05);
 }
 
@@ -74,7 +75,7 @@ a {
   margin:auto;
   height: 180px;
   width: 250px;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1);
 }
 
@@ -85,7 +86,7 @@ a {
   height: 180px;
   margin:auto;
   width: 250px;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1.05);
 }
 
@@ -95,7 +96,7 @@ a {
   margin:auto;
   height: 180px;
   width: 250px;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1);
 }
 
@@ -106,7 +107,7 @@ a {
   height: 180px;
   margin:auto;
   width: 250px;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1.05);
 }
 
