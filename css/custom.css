@@ -101,10 +101,12 @@ a {
 }
 
 .adme-img:hover{
-  background-image: url("../img/portfoliovidAdMe.gif");
+  background-image: url("../img/portfoliovidAdMe2.gif");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 180px;
+  /* border-radius: 20%; */
   margin:auto;
   width: 250px;
   transition-duration: 1s;
