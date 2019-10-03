@@ -43,10 +43,6 @@ a {
   border-radius: 25px;
 }
 
-/* .nile{
-  margin-top: 5%;
-} */
-
 .nile-img{
   margin-top: 5%;
   background-image: url("../img/nile.png");
@@ -106,7 +102,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   height: 180px;
-  /* border-radius: 20%; */
   margin:auto;
   width: 250px;
   transition-duration: 1s;
@@ -145,7 +140,6 @@ a {
 
 .skill-img:hover{
   background-color:rgba(255,255,0,1);
-  /* opacity: 0.5; */
   transition-duration: 0.5s;
   transform:scale(1.2);
 }
@@ -221,8 +215,6 @@ a {
 
 .html-img{
   background-image: url("../img/html.png");
-  /* font-size: 3rem; */
-  /* vertical-align: auto; */
   background-size: cover;
   background-position: bottom;
 }
@@ -231,7 +223,6 @@ a {
   background-image: url("../img/css.png");
   background-size: cover;
   background-position: bottom;
-  /* transform: scale(1.5) */
 }
 
 .bootstrap-img{
