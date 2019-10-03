@@ -6,6 +6,13 @@
   background-image: url(../img/supernova-bg.jpg)
 }
 
+.skills-section{
+  background-image: url("../img/supernova-bg2.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .btn-default {
   border: 1px solid #6ea2f0;
   color: #6ea2f0;
@@ -22,14 +29,7 @@
 
 .background{
   background-color: white;
-  /* width: 100%;
-  height:50px; */
 }
-
-/* .row {
-   display: flex;
-   flex-wrap: wrap;
-} */
 
 .rowPort > div[class*='col-'] {
   display: flex;
@@ -43,17 +43,15 @@ a {
   border-radius: 25px;
 }
 
-/* .nile{
-  margin-top: 5%;
-} */
-
 .nile-img{
   margin-top: 5%;
   background-image: url("../img/nile.png");
   background-size: cover;
+  background-position: center;
   margin:auto;
   height: 180px;
   width: 250px;
+  transition-duration: 1s;
   transform: scale(1);
 }
 
@@ -61,54 +59,187 @@ a {
   background-image: url("../img/portfoliovidNile.gif");
   background-size: cover;
   background-position: center;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1.05);
 }
 
 
 .jungle-img{
   margin-top: 5%;
-  background-image: url("../img/nile.png");
+  background-image: url("../img/jungle.png");
   background-size: cover;
   margin:auto;
   height: 180px;
   width: 250px;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1);
 }
 
 .jungle-img:hover{
-  background-image: url("../img/portfoliovidNile.gif");
+  background-image: url("../img/portfoliovidJungle.gif");
   background-size: cover;
   background-position: center;
   height: 180px;
   margin:auto;
   width: 250px;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1.05);
 }
 
 .adme-img{
-  background-image: url("../img/nile.png");
+  background-image: url("../img/adme.png");
   background-size: cover;
   margin:auto;
   height: 180px;
   width: 250px;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1);
 }
 
 .adme-img:hover{
-  background-image: url("../img/portfoliovidNile.gif");
+  background-image: url("../img/portfoliovidAdMe2.gif");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 180px;
   margin:auto;
   width: 250px;
-  /* transition-duration: 1s; */
+  transition-duration: 1s;
   transform: scale(1.05);
 }
 
 #map {
-        height: 100%;
-      }
+  height: 100%;
+}
+
+.emailMessage{
+  width:50%;
+  height:100px
+}
+
+/*skills*/
+
+.skill{
+  width: 100px;
+  height:100px;
+}
+
+.skillContainer{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+.skill-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  transform:scale(1);
+}
+
+.skill-img:hover{
+  background-color:rgba(255,255,0,1);
+  transition-duration: 0.5s;
+  transform:scale(1.2);
+}
+
+.javascript-img{
+  background-image: url("../img/javascript.png");
+  background-size: cover;
+}
+
+.php-img{
+  background-image: url("../img/php.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.mysql-img{
+  background-image: url("../img/mysql.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.react-img{
+  background-image: url("../img/react2.png");
+  background-size: cover;
+}
+
+.node-img{
+  background-image: url("../img/node.png");
+  background-size: cover;
+}
+
+.jquery-img{
+  background-image: url("../img/jquery.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.express-img{
+  background-image: url("../img/express.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.c-img{
+  background-image: url("../img/c.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.github-img{
+  background-image: url("../img/github.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.meistertask-img{
+  background-image: url("../img/meistertask.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.figma-img{
+  background-image: url("../img/figma.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.aws-img{
+  background-image: url("../img/aws.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.html-img{
+  background-image: url("../img/html.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.css-img{
+  background-image: url("../img/css.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.bootstrap-img{
+  background-image: url("../img/bootstrap.jpg");
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 18%;
+}
+
+.babel-img{
+  background-image: url("../img/babel.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.webpack-img{
+  background-image: url("../img/webpack.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
