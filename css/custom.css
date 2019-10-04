@@ -251,3 +251,9 @@ a {
   background-size: cover;
   background-position: bottom;
 }
+
+.sass-img{
+  background-image: url("../img/sass.png");
+  background-size: cover;
+  /* background-position: bottom; */
+}
