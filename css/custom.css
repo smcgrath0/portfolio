@@ -73,6 +73,7 @@ a {
 
 
 .jungle-img{
+  /* margin-left: 5%; */
   margin-top: 5%;
   background-image: url("../img/jungle.png");
   background-size: cover;
