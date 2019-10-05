@@ -51,6 +51,14 @@ a {
   margin-top:3%;
 }
 
+.adme{
+  margin-top: 3%;
+}
+
+.jungleBlock{
+  display: flex;
+  justify-content:center;
+}
 .nile-img{
   margin-top: 5%;
   background-image: url("../img/nile.png");
@@ -73,7 +81,6 @@ a {
 
 
 .jungle-img{
-  /* margin-left: 5%; */
   margin-top: 5%;
   background-image: url("../img/jungle.png");
   background-size: cover;
@@ -137,6 +144,7 @@ a {
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
+  margin-left:5%;
 }
 
 .skill-img{
@@ -256,5 +264,4 @@ a {
 .sass-img{
   background-image: url("../img/sass.png");
   background-size: cover;
-  /* background-position: bottom; */
 }
