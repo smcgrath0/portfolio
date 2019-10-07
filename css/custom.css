@@ -35,10 +35,46 @@
   display: flex;
 }
 
+.rowPort{
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
 a {
   color: #6ea2f0;
 }
 
+.aboutMeBody{
+  display:flex;
+  justify-content:space-between;
+}
+.me{
+  background-image: url("../img/me.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.meContainer{
+  width:30%
+}
+.bioContainer{
+  width: 60%;
+}
+@media (max-width: 550px) {
+  .aboutMeBody{
+    display:block;
+  }
+  .meContainer{
+    margin: auto;
+    width:200px;
+    margin-bottom: 5%;
+  }
+  .bioContainer{
+    margin:auto;
+  }
+}
 .rounded-corners{
   border-radius: 25px;
 }
@@ -138,13 +174,15 @@ a {
 .skill{
   width: 100px;
   height:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skillContainer{
   display:flex;
   justify-content: center;
   flex-wrap:wrap;
-  margin-left:5%;
 }
 
 .skill-img{
