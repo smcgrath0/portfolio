@@ -97,7 +97,7 @@ a {
 }
 .nile-img{
   margin-top: 5%;
-  background-image: url("../img/nile.png");
+  background-image: url("../img/nile2.png");
   background-size: cover;
   background-position: center;
   margin:auto;
@@ -108,7 +108,7 @@ a {
 }
 
 .nile-img:hover{
-  background-image: url("../img/portfoliovidNile.gif");
+  background-image: url("../img/portfoliovidNile2.gif");
   background-size: cover;
   background-position: center;
   transition-duration: .5s;
