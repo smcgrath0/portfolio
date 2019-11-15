@@ -54,9 +54,11 @@
 
 .rowPort{
   display:flex;
-  justify-content: space-between;
   flex-wrap:wrap;
   align-items: flex-start;
+}
+.rowPort2{
+  justify-content: space-between;
 }
 a {
   color: #6ea2f0;
@@ -93,6 +95,12 @@ a {
     margin:auto;
   }
 }
+@media (max-width:700px){
+  .rowPort2{
+    justify-content: center;
+  }
+}
+
 .rounded-corners{
   border-radius: 25px;
 }
@@ -227,6 +235,7 @@ a {
   margin-top:5%;
   width: 120px;
 }
+
 .card-title{
   font-size: 20px;
   text-align: left;

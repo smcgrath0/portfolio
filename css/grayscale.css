@@ -101,11 +101,7 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
-@media (max-width: 500px) {
-  .navbar-custom{
-    width: 80%
-  }
-}
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
