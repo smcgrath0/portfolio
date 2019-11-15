@@ -12,8 +12,13 @@
   color:white;
   width: 80%;
   margin-left: 10%;
+  margin-top:10%;
+  height: 500px;
 }
 
+#firstbtn{
+  width: 70px
+}
 .download-section{
   background-image: url(../img/supernova-bg.jpg)
 }
@@ -51,6 +56,7 @@
   display:flex;
   justify-content: space-between;
   flex-wrap:wrap;
+  align-items: flex-start;
 }
 a {
   color: #6ea2f0;
@@ -104,8 +110,6 @@ a {
 }
 
 .jungleBlock{
-  display: flex;
-  justify-content:center;
 }
 .nile-img{
   margin-top: 5%;
@@ -212,9 +216,41 @@ a {
 }
 .card-block{
   background-color: rgba(0,0,0,0.7);
-  border-radius: 10%;
+  border-radius: 1%;
   padding: 5%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+  width: 250px;
+  margin:auto
+}
+
+.link{
+  margin-top:5%;
+  width: 120px;
+}
+.card-title{
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5%;
+}
+.card-text{
+  font-size: 16px;
+  text-align: left
+}
+.card{
+  padding:5%;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.projectsHeader{
+  font-size: 28px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+#projectsSubHeader{
+  font-size: 20px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .javascript-img{
   background-image: url("../img/javascript.png");
